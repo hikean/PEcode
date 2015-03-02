@@ -1,0 +1,1 @@
+def cal(k):	ls=[2]	for x in range(1,k+1):		ls.append(1)		ls.append(2*x)		ls.append(1)	ls=ls[::-1]	a,b=0,1	for x in ls:		a,b=b,a+b*x	return (b,a)print sum([int(x) for x in str(cal(33)[0])])

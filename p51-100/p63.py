@@ -1,0 +1,1 @@
+print len([(x,y) for x in range(1,10) for y in range(1,50) if len(str(x**y))==y])
